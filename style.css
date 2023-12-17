@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("fonts/RobotoSlab-Black.ttf");
+}
+
+* {
+    /* background-color: #f6f8fc; */
+    font-family: "Arial";
+}
+
+.admin_Logo_Image {
+    height: 100vh;
+    background-image: url('resources/app/campus_image.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.student_Logo_Image {
+    height: 100vh;
+    background-image: url('resources/app/student_images.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.table_heigth {
+    height: 200px;
+    overflow: auto;
+}
+
+.main-Image {
+    height: 100vh;
+    width: 100%;
+    background-image: url("resources/app/main_image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
